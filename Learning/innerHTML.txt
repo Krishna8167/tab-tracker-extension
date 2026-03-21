@@ -1,0 +1,71 @@
+HTML :
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="container">
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
+
+CSS :
+
+body {
+    text-align: center;
+}
+
+#container {
+    margin-top: 30px;
+}
+
+#container button {
+    background: lightcoral;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+
+JS:
+
+// Use .innerHTML to render a Buy! button inside the div container
+
+const container = document.getElementById("container")
+
+container.innerHTML = "<button>BUY!</button>"
+
+
+
+PART : 2
+
+
+
+
+const container = document.getElementById("container")
+
+container.innerHTML = "<button onclick='buy()'>Buy!</button>"
+
+// When clicked, render a paragraph under the button (in the container)
+// that says "Thank you for buying!"
+
+function buy() {
+    container.innerHTMl = "<p>Thank you for buying!</p>"
+}
+
+
+
+
+/* 
+for (let i = 0; i < myLeads.length; i++) {
+   // ulEl.innerHTML += "<li>" +  myLeads[i] + "</li>"
+                ||
+   const li = document.createElement("li")
+   li.textContent = myLeads[i]
+   ulEl.append(li)
+
+}
+*/
