@@ -1,12 +1,10 @@
 {
-    "manifest_version": 3,
-    "version": "1.0",
-    "name": "Web tracker",
-    "action": {
-        "default_popup": "index.html",
-        "default_icon": "icon2.png"
-    },
-    "permissions":[
-        "tabs"
-    ]
+  "manifest_version": 3,
+  "name": "Tab Tracker",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["tabs"],
+  "incognito": "split"
 }
