@@ -3,40 +3,44 @@ body {
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     min-width: 400px;
+    background: #0f172a;
+    color: #e5e7eb;
 }
 
 input {
-    width : 100%; /* 100% */
-    padding : 10px;
-    box-sizing : border-box;
-    border: 1px solid #5f9341;
-    margin-bottom : 4px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #22c55e;
+    margin-bottom: 6px;
+    background: #020617;
+    color: white;
 }
 
 button {
-    background : #5f9341;
-    color: white;
-    padding : 10px 20px;
-    border : 1px solid #5f9341;
-    font-weight : bold;
+    background: #22c55e;
+    color: #020617;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
 }
 
 #delete-btn {
-    background: white;
-    color : #5f9341;
+    background: transparent;
+    color: #22c55e;
+    border: 1px solid #22c55e;
 }
 
 ul {
-    margin-top : 20px;
-    list-style : none; 
-    padding-left : 0px;
-   
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
 }
 
 li {
-    margin-top : 5px;
+    margin-top: 6px;
 }
 
 li a {
-    color : #5f9341;
+    color: #4ade80;
 }
