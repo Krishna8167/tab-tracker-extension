@@ -1,5 +1,9 @@
 # Tab Tracker (Chrome Extension)
 
+<p align="center">
+  <img src="icon2.png" alt="Tab Tracker Icon" width="120"/>
+</p>
+
 A lightweight Chrome extension that allows you to save and manage browser tabs for later use. It captures the current tab or manually entered URLs and stores them locally in your browser.
 
 ---
